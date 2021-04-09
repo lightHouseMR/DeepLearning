@@ -1,3 +1,5 @@
+package mundo;
+
 public class Digit {
     private byte label;
     private byte[] image;

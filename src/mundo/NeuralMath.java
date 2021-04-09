@@ -1,3 +1,5 @@
+package mundo;
+
 public final class NeuralMath {
     public static int[][] fastMultiply(int[][] A, int[][] B) {
         int n = A.length;

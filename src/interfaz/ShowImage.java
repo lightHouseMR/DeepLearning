@@ -1,4 +1,8 @@
+package interfaz;
+
 import javax.swing.JFrame;
+
+import mundo.Digit;
 
 import java.awt.*;
 
@@ -11,7 +15,7 @@ public class ShowImage extends JFrame{
     Digit dig;
     int xSize;
     int ySize;
-    ShowImage(){
+    public ShowImage(){
         setSize(windowX, windowY);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setResizable(false);

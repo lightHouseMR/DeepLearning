@@ -1,3 +1,5 @@
+package mundo;
+
 public class NeuralNetwork {
     float[][] layers;
     float[][][] weights;
