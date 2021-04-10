@@ -61,4 +61,8 @@ public class DataSet {
         return dataSize;
     }
 
+    public Digit[] giveDigits(){
+        return digits;
+    }
+
 }
